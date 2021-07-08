@@ -1,27 +1,9 @@
 {
  "name": "task gallery",
- "description": "",
+ "description": “lisihao”,
  "task": [
-    # 2021.5.27 10:26
-# 非订阅
-# 持续更新 
-# Quantumult X 远程 js 合集
-# 请 手动 全选 复制到相应位置
 
-####################
-##### 定时任务 #####
-#####
-
-####################
-# 排名不分先后 反正都是大佬
-####################
-
-####################
-# @ by NobyDa
 "5 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东多合一签到, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png,enabled=true",
-
-####################
-# @ by lxk0301
 
 "2 9 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_change.js, tag=京东资产变动通知, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
 
@@ -137,8 +119,6 @@
 
 "15 17 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/xmSports.js, tag=小米运动, img-url=https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png, enabled=true",
 
-####################
-# @ by yangtingxiao
 
 "0 0,9 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_baiTiao.js, tag=京东白条, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/baitiao.png, enabled=true",
 
@@ -155,6 +135,5 @@
 "11 0 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_woHome.js, tag=东东小窝, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/woHome.png, enabled=true",
 
 "5 * * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js, tag=动物联萌, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true",
-####################
 ]
 }
