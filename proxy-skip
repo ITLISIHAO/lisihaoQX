@@ -1,0 +1,25 @@
+[Rule]
+; Loon: [General] skip-proxy 转换为 QX: [Rule] DIRECT (直连)
+DOMAIN-SUFFIX,www.baidu.com,DIRECT
+DOMAIN-SUFFIX,yunbusiness.ccb.com,DIRECT
+DOMAIN-SUFFIX,wxh.wo.cn,DIRECT
+DOMAIN-SUFFIX,gate.lagou.com,DIRECT
+DOMAIN-SUFFIX,www.abchina.com.cn,DIRECT
+DOMAIN-SUFFIX,www.shanbay.com,DIRECT
+DOMAIN-SUFFIX,login-service.mobile-bank.psbc.com,DIRECT
+DOMAIN-SUFFIX,mobile-bank.psbc.com,DIRECT
+DOMAIN-SUFFIX,id6.me,DIRECT
+
+; Loon: [General] real-ip 转换为 QX: [Rule] force-remote-dns (真实 IP)
+DOMAIN-SUFFIX,easy-login.10099.com.cn,force-remote-dns
+DOMAIN-SUFFIX,xoyocdn.com,force-remote-dns
+DOMAIN-SUFFIX,id6.me,force-remote-dns
+DOMAIN-SUFFIX,open.e.189.cn,force-remote-dns
+
+; Loon: [General] skip-first-packet 转换为 QX: [Rule] DIRECT
+DOMAIN-SUFFIX,server.ovital.com,DIRECT
+
+; Loon: [Rule] REJECT 转换为 QX: [Rule] REJECT (拒绝)
+DOMAIN,msmp.abchina.com.cn,REJECT
+
+; ... [其他 QX 规则，例如 FINAL 策略等]
